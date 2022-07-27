@@ -1,0 +1,67 @@
+
+.links-size{
+	padding-top: 10px;
+	display: flex;
+	justify-content: left;
+	gap: 20px;
+	list-style: none;
+}
+.x-sizes{
+	border: none;
+	width: 35px;
+	height: 35;
+	border-radius: 100px;
+	background-color: grey;
+}
+.solxns_container{
+
+	border: none;
+}
+.solxns_container:hover{
+	border: 1px solid grey;
+}
+/*.card-body{
+	font-family: sans-serif;
+
+	text-align: center;*/
+}
+.solxns_container .card-body {
+	background-color:black;
+	color:white;
+	position: relative;
+	top: 25px;
+	left: 260px;
+	font-size: 10px;
+	width: fit-content;
+}
+.article{
+	text-align: right;
+	border: 1px solid black;
+	border: none;
+	font-size: 10px;
+}
+.card-body{
+	text-align: center;
+}
+.card-body p span{
+	font-size:10 px;
+	font-weight: bold;
+}
+.cartform{
+	width: 300px;
+}
+#submit{
+	background-color: black;
+	border-radius: 5px;
+	border: none;
+	color: white;
+	width: 200px;
+}
+#submit:hover{
+    background-color:orange;
+}
+.select_bar_hand{
+	display: flex;
+	gap: 50rem;
+}
+
